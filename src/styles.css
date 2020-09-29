@@ -1,0 +1,131 @@
+.col-lg-6 {
+  text-align: left;
+  line-height: 20px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#currentLocation {
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: green;
+  color: white;
+  vertical-align: middle;
+}
+div.form-group {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+div.row-col-5 {
+  border: 3px solid violet;
+  padding: 20px 20px 50px 20px;
+  margin-top: 0;
+}
+body {
+  margin-top: 20px;
+}
+
+div.container {
+  border: 2px solid black;
+  padding: 50px 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+div.col-6 {
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: "Noto Sans KR", sans-serif;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+ul {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: bold;
+}
+div.col-2 {
+  font-size: 30px;
+}
+
+i.fa-cloud {
+  margin-top: 20px;
+  color: rgb(152, 186, 230);
+  font-size: 80px;
+}
+i.fa-snowflake {
+  color: rgb(206, 201, 201);
+}
+i#snow2 {
+  position: relative;
+  margin-left: 50px;
+  font-size: 25px;
+}
+div#forecast {
+  font-size: 35px;
+  font-style: bold;
+  font-family: "Noto Sans KR", sans-serif;
+  padding-bottom: 20px;
+  color: rgb(75, 74, 74);
+}
+div.days-row-col-5 {
+  font-size: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+div#wed {
+  border: 2px solid blueviolet;
+  margin: 0 20px;
+}
+div#thur {
+  border: 2px solid blueviolet;
+  margin: 0 20px;
+}
+div#fri {
+  border: 2px solid blueviolet;
+  margin: 0 20px;
+}
+div#sat {
+  border: 2px solid blueviolet;
+  margin: 0 20px;
+}
+div#sun {
+  border: 2px solid blueviolet;
+  margin: 0 20px;
+}
+i#cloud2 {
+  font-size: 40px;
+  color: rgb(128, 122, 122);
+}
+.fa-wind {
+  font-size: 40px;
+  margin-top: 15px;
+}
+.fa-sun {
+  font-size: 40px;
+  margin-top: 15px;
+}
+.fa-icicles {
+  font-size: 40px;
+  margin-top: 15px;
+}
+i#snow4 {
+  font-size: 40px;
+  margin-top: 15px;
+}
+#tempChange {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+#currentTemp {
+  line-height: 80px;
+  font-size: 80px;
+}

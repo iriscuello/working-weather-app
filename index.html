@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/ce405258c4.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row row-col-5">
+        <div class="col">
+      <form class="form-inline">
+        <div class="form-group">
+          City:
+          <label for="staticEmail2 border" class="sr-only">City:</label>
+          <input
+            type="text"
+            readonly
+            class="form-control-plaintext"
+            id="staticEmail2"
+            
+          />
+        </div>
+        </div>
+        <div class="col-5 ">
+        <div class="form-group mr-2">
+          <input
+            type="text"
+            class="form-control"
+            id="inputCity1"
+            placeholder="Enter City"
+          />
+        </div>
+        </div>
+        <div class="col">
+        <button type="submit" class="btn btn-primary mb-10">
+          Search
+        </button>
+        <button id="currentLocation">Current</button>
+        </div>
+        <div class="col">
+        <p id="date">
+        </p>
+        </div>
+          <div class="col-lg-6">
+            PARIS
+        </div>
+      </div>
+      </form>
+      <div class="row row-col-3">
+        <div class="col-6">
+          Current Temperature
+          <br>
+          <span id="currentTemp">19℃</span>  
+        </div>
+        <div class="col">
+          <ul>
+            <li id="hiTemp">
+                Hi: -10ºC
+            </li>
+          <li id="lowTemp"> 
+            Low: -13ºC
+          </li>
+          <li id="description">
+              
+          </li>
+          </ul>
+        </div>
+          <div class="col-2">
+              <i class="fas fa-cloud"></i>
+            <br>
+            <i id="snow1" class="fas fa-snowflake"></i>
+            <br>
+            <i id="snow2" class="fas fa-snowflake"></i>
+            <br>
+            <i id="snow3" class="fas fa-snowflake"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div id="forecast" class="col">
+5 Day Forecast
+          </div>
+        </div>
+        <div class="row days-row-col-5">
+          <div id="wed" class="col p-4">
+            Wednesday
+            <br>
+            -12ºC 
+            <br>
+            <i id="cloud2" class="fas fa-cloud"></i>
+           </div>
+           <div id="thur" class="col p-4">
+             Thursday
+             <br>
+             -19ºC 
+             <br>
+             <i class="fas fa-wind"></i>
+           </div>
+           <div id="fri" class="col p-4">
+              Friday
+              <br>
+              -15ºC 
+              <br>
+              <i class="far fa-sun"></i>
+            </div>
+            <div id="sat" class="col p-4">
+                Saturday
+                <br>
+                -23ºC 
+                <br>
+                <i id="snow4" class="far fa-snowflake"></i>
+              </div>
+              <div id="sun" class="col p-4">
+                  Sunday
+                  <br>
+                  -25ºC 
+                  <br>
+                  <i class="fas fa-icicles"></i>
+                </div>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
