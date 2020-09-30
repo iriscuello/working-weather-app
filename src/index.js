@@ -1,6 +1,22 @@
 let now = new Date();
 let hour = now.getHours();
 let min = now.getMinutes();
+let months = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "July",
+  "Aug",
+  "Sept",
+  "Oct",
+  "Nov",
+  "Dec"
+];
+let month = months[now.getMonth()];
+let dayOfMonth = now.getDate();
 let days = [
   "Sunday",
   "Monday",
@@ -12,7 +28,7 @@ let days = [
 ];
 let day = days[now.getDay()];
 let date = document.querySelector("#date");
-date.innerHTML = day + " " + hour + ":" + min;
+date.innerHTML = `${day} ${month} ${dayOfMonth}, ${hour}: ${min}`;
 
 function getCurrentTemp(event) {
   event.preventDefault();
