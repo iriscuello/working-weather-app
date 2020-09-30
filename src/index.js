@@ -28,7 +28,7 @@ let days = [
 ];
 let day = days[now.getDay()];
 let date = document.querySelector("#date");
-date.innerHTML = `${day} ${month} ${dayOfMonth}, ${hour}: ${min}`;
+date.innerHTML = `${day} ${month} ${dayOfMonth}, ${hour}:${min}`;
 
 function getCurrentTemp(event) {
   event.preventDefault();
